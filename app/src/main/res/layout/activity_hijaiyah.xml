@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB6666"
+    android:orientation="vertical"
+    tools:context=".HijaiyahActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belajar Huruf Hijaiyah"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnTa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ta"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnBa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ba"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnAlif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/alif"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnHa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ha"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnJim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jim"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnTsa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sa"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnDzal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dzal"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnDal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dal"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnKha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kha"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnSin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sin"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnZa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/za"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnRa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ra"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnDhad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dlad"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnShad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shad"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnSyin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/syin"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnAin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ain"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnZha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zha"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnTha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tha"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnQaf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qaf"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnFa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fa"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnGhain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ghain"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnMim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mim"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnLam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lam"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnKaf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kaf"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnHaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/haa"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnWau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/wau"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnNun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nun"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnYaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ya"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnHamzah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hamzah"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnLamalif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lamalif"
+                    android:layout_weight="2"
+                    android:background="#00000000"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnKembali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kembali"
+                android:layout_margin="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
